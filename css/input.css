@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+      @apply bg-[#29a2f3] hover:bg-[#1A8CD8] text-white font-bold py-2 px-4 rounded;
+    }
+    .trending {
+      @apply hover:bg-[#a52a2a21] transition duration-200 cursor-pointer flex flex-col gap-1 justify-center;
+    }
+    .trend-more{
+      @apply hover:bg-[#0000ff31] hover:text-[blue] rounded-full p-1 transition-colors duration-200
+    }
+    .nav-underline{
+      @apply w-[4rem] h-[4px] absolute bottom-0 left-[3.6rem] bg-blue-500 rounded-full custom5:left-[18%] underline1:left-[16%] underline2:left-[13.5%] underline3:left-[17%] underline4:left-[16%]
+
+    }
+  }
