@@ -4,4 +4,6 @@
 ### I used tailwind css and cloned UI of twitter also known as X.com
 
 ## Command to run project:-
-	1. npm run build
+```	
+ npm run build
+```
